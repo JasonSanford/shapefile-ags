@@ -44,7 +44,7 @@ agsStream.on('data', function (data) {
 });
 
 agsStream.on('error', function (error) {
-  console.log('Oh boy, this happened: ', error);
+  console.log('Error from ags-stream: ', error);
 });
 
 agsStream.on('end', function () {
