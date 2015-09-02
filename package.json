@@ -1,6 +1,6 @@
 {
   "name": "shapefile-ags",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CLI to scrape ArcGIS Server instances and export as shapefiles",
   "main": "index.js",
   "scripts": {
