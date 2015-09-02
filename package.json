@@ -1,0 +1,33 @@
+{
+  "name": "shapefile-ags",
+  "version": "0.0.0",
+  "description": "CLI to scrape ArcGIS Server instances and export as shapefiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shapefile-ags": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasonSanford/shapefile-ags.git"
+  },
+  "keywords": [
+    "shapefile",
+    "arcgis",
+    "server"
+  ],
+  "author": "Jason Sanford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonSanford/shapefile-ags/issues"
+  },
+  "homepage": "https://github.com/JasonSanford/shapefile-ags",
+  "dependencies": {
+    "ags-stream": "^1.0.0",
+    "minimist": "^1.2.0",
+    "shp-write": "^0.2.4",
+    "terraformer-arcgis-parser": "^1.0.4"
+  }
+}
