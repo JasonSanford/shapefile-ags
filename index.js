@@ -17,10 +17,10 @@ if (argv._.length < 1) {
 var where      = argv.where;
 var serviceUrl = argv._[0];
 var chunkSize  = argv['chunk-size'] || 50;
-var outSR      = argv['out-sr'];
+var fileName   = argv['file-name'] || 'shapefile.zip';
 
 var options = {
-  outSR     : outSR,
+  outSR     : 4326,
   where     : where,
   chunkSize : chunkSize
 };
@@ -54,7 +54,7 @@ agsStream.on('end', function () {
   };
 
   var zipped = shpwrite.zip(featureCollection);
-  fs.writeFileSync('shapefile.zip', zipped);
+  fs.writeFileSync(fileName, zipped);
 });
 
 agsStream.read()
