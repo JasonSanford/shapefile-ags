@@ -10,7 +10,7 @@ Export an ArcGIS Server service layer as a shapefile.
 
     shapefile-ags <map_service_layer_url> [options]
 
-A simple example that imports all features:
+A simple example that exports all features:
 
     shapefile-ags http://gis-web.co.union.nc.us/arcgis/rest/services/PWGIS_Web/Operational_Layers/MapServer/5
 
