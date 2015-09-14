@@ -1,5 +1,7 @@
 ## shapefile-ags
 
+![npm version](https://img.shields.io/npm/v/shapefile-ags.svg)
+
 Export an ArcGIS Server service layer as a shapefile.
 
 ### Installation
